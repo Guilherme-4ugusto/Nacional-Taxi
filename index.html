@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nacional Táxi</title>
+  <link rel="icon" href="image/icon.png">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Popup Modal -->
+  <div id="popModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Medidas de segurança contra Covid-19 </h4>
+        </div>
+        <div class="modal-body">
+          <p>Juntos, estamos enfrentando uma situação sem precedentes. A pandemia do Covid-19 está afetando todas as
+            nossas
+            famílias, empresas, comunidades e o nosso estilo de vida.</br>
+            Durante estes tempos, eu queria atualizar vocês sobre como estamos abordando esta situação na Nacional Táxi.
+          </p>
+          <p>
+            Nossos motoristas estão seguindo medidas de segurança, todos motoristas estão usando mascaras e se
+            higienizando com álcool,
+            nossos carros também estão sendo higienizados.</p>
+          <p>
+            Pedimos que nossos clientes ao sair de casa sigam as medidas de segurança estabelecidas pela (Organização
+            Mundial
+            de Saúde) OMS.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="toggle" id="toggle" onclick="toggle()"></div>
+  <div id="curtain">
+    <span></span>
+    <span></span>
+    <span></span>
+    <ul>
+      <li><a href="#inicio" class="menu-link" onclick="toggle()">Inicio</a></li>
+      <li><a href="#viaje" class="menu-link" onclick="toggle()">Viaje Conosco</a></li>
+      <li><a href="#container-css-2" class="menu-link" onclick="toggle()">Baixe Nosso Aplicativo</a></li>
+      <li><a href="#trabalhe" class="menu-link" onclick="toggle()">Trabalhe Conosco</a></li>
+      <li><a href="#motorista" class="menu-link" onclick="toggle()">Baixe o Aplicativo Para Motorista</a></li>
+      <li><a href="php/formulario.php" class="menu-link" onclick="toggle()">Formulário de Contato</a></li>
+    </ul>
+  </div>
+  <div class="hero" id="inicio">
+    <h2 class="title">Bem Vindo!!</h2>
+    <h3 class="sub-title">Descubra um novo modo de viajar</h3>
+    <a class="scroll-down" href="#">
+      <div class="mouse">
+        <span></span>
+      </div>
+      <div class="arrow">
+        <span></span>
+      </div>
+    </a>
+  </div>
+  <section></section>
+  <div class="container-css" id="viaje">
+    <div data-aos="fade-up" data-aos-duration="700">
+      <div class="row">
+        <div class="col-md-7">
+
+          <h1>Viaje de Nacional</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eros lorem, ullamcorper ultrices mi ac,
+            suscipit pulvinar enim. Nullam eget mauris vel dui congue semper a ac arcu. Quisque accumsan tincidunt
+            cursus.
+            Duis et aliquam lorem. Etiam tempor rutrum est. Class aptent taciti sociosqu ad litora torquent per conubia
+            nostra,
+            per inceptos himenaeos. Morbi non magna ut libero luctus suscipit. Curabitur in felis non mauris pulvinar
+            eleifend
+            vitae lacus. Aliquam aliquet augue eu nisi accumsan lacinia id eget velit. Donec facilisis velit metus, eu
+            facilisis
+            leo tempor eleifend. Vivamus hendrerit erat sed magna pharetra, mattis tincidunt nisl commodo. Vivamus ac mi
+            eu turpis
+            venenatis viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel laoreet diam,
+            nec varius
+            nulla. In volutpat nisi eget erat pulvinar condimentum.</p>
+
+        </div>
+        <div class="col-md-5">
+          <img src="image/cell.png" class="imagem">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-css-2">
+    <div id="container-css-2">
+      <div class="row">
+        <div class="cards">
+          <h1 data-aos="zoom-in" data-aos-duration="1000">Baixe Nosso Aplicativo</h1>
+          <div class="services">
+            <div class="content content-1" data-aos="fade-right" data-aos-duration="500">
+              <div class="fab fa-apple"></div>
+              <h2>Apple Store</h2>
+              <a href="https://apps.apple.com/br/app/nacional-t-c3-a1xi-se/id1447376171" target="_blank">Faça já o
+                download</a>
+            </div>
+            <div class="content content-2" data-aos="fade-left" data-aos-duration="500">
+              <div class="fab fa-google-play"></div>
+              <h2>Play Store</h2>
+              <a href="https://play.google.com/store/apps/details?id=br.com.originalsoftware.taxifoneclienteandroid.nacionaltaxi"
+                target="_blank">Faça já o download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-css-3" id="trabalhe">
+    <div data-aos="fade-up" data-aos-duration="700">
+      <div class="row">
+        <div class="col-md-5">
+          <img src="image/cell2.png" class="imagem2">
+        </div>
+        <div class="col-md-7">
+
+          <h1>Trabalhe Conosco</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eros lorem, ullamcorper ultrices mi ac,
+            suscipit pulvinar enim. Nullam eget mauris vel dui congue semper a ac arcu. Quisque accumsan tincidunt
+            cursus.
+            Duis et aliquam lorem. Etiam tempor rutrum est. Class aptent taciti sociosqu ad litora torquent per conubia
+            nostra,
+            per inceptos himenaeos. Morbi non magna ut libero luctus suscipit. Curabitur in felis non mauris pulvinar
+            eleifend
+            vitae lacus. Aliquam aliquet augue eu nisi accumsan lacinia id eget velit. Donec facilisis velit metus, eu
+            facilisis
+            leo tempor eleifend. Vivamus hendrerit erat sed magna pharetra, mattis tincidunt nisl commodo. Vivamus ac mi
+            eu turpis
+            venenatis viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel laoreet diam,
+            nec varius
+            nulla. In volutpat nisi eget erat pulvinar condimentum.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-css-2">
+    <div id="container-css-3">
+      <div class="row" id="motorista">
+        <div class="col-md-6">
+          <div class="cards">
+            <div data-aos="zoom-in" data-aos-duration="1000">
+              <h1>Baixe o aplicativo para motorista</h1>
+            </div>
+            <div data-aos="fade-right" data-aos-duration="500">
+              <div class="services">
+                <div class="content content-2">
+                  <div class="fab fa-google-play"></div>
+                  <h2>Play Store</h2>
+                  <a href="https://play.google.com/store/apps/details?id=br.com.originalsoftware.taxifonedriver.nacionaltaxi	"
+                    target="_blank">Faça já o download</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="cards">
+            <div data-aos="zoom-in" data-aos-duration="1000">
+              <h1>Nos siga no Instagram</h1>
+            </div>
+            <div data-aos="fade-left" data-aos-duration="500">
+              <div class="services">
+                <div class="content content-3">
+                  <div class="fab fa-instagram"></div>
+                  <h2>Instagram</h2>
+                  <a href="https://www.instagram.com/nacionaltaxi_/?hl=pt-br" target="_blank">Clique aqui!!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer" id="footer">
+    <div class="row">
+      <div class="col-md-3 sobre">
+        <img class="img-footer" src="image/logo.png">
+        <p class="texto-footer">A Nacional Táxi é um empresa genuinamente sergipana, aonde por meio de aplicativo
+          oferece o melhor serviço de táxi.
+          Baixe nosso aplicativo e desfrute de descontos espetaculares!</p>
+      </div>
+      <div class="col-md-3 contato">
+        <h2 class="h2-footer link">CONTATO</h2>
+        <p class="links-contato"><i class="fas fa-mobile-alt"></i> Tel. (79) 3259-8069</p>
+        <p class="links-contato"><i class="fas fa-building"></i> Av. Pres. Tancredo Neves,
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp5615 - Aracaju - SE</p>
+      </div>
+      <div class="col-md-3 menu-content">
+        <h2 class="h2-footer menu">MENU</h2>
+        <ol class="menu-links" style="list-style-type: none;">
+          <li><a href="#inicio" class="menu-link">Inicio</a></li>
+          <li><a href="#viaje" class="menu-link">Viaje Conosco</a></li>
+          <li><a href="#container-css-2" class="menu-link">Baixe Nosso Aplicativo</a></li>
+          <li><a href="#trabalhe" class="menu-link">Trabalhe Conosco</a></li>
+          <li><a href="#motorista" class="menu-link">Baixe o Aplicativo Para Motorista</a></li>
+          <li><a href="php/formulario.php" class="menu-link">Formulário de Contato</a></li>
+        </ol>
+      </div>
+      <div class="col-md-3">
+        <h2 class="h2-footer redes">REDES SOCIAIS</h2>
+        <div class="btn-group-vertical btn-block btn-group-lg" role="group">
+          <a class="btn btn-outline-face" href="https://www.facebook.com/nacionaltaxi.se" target="_blank"><i
+              class="fab fa-facebook"></i> Facebook</a>
+          <a class="btn btn-outline-insta" href="https://www.instagram.com/nacionaltaxi_/?hl=pt-br" target="_blank"><i
+              class="fab fa-instagram"></i> Instagram</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="footer-bottom">
+        <p>&copy;2020 Nacional Táxi | Desenvolvido por <a href="https://www.instagram.com/guilherme4ugusto/?hl=pt-br"
+            target="blank">@Guilherme_4ugusto</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="js/script.js" type="text/javascript"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+  integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script>
+  $(function () { $("#popModal").modal('show'); });
+</script>
+
+</html>
